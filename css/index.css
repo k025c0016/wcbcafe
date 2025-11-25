@@ -56,7 +56,8 @@ img {
     transition: backgroud-color  1s ease-out 200ms;
 }
 .btn:hover{
-    background-color: #0090aa;
+    rotate: -35deg;
+    scale: 3.3;
 }
 
 
@@ -160,6 +161,21 @@ img {
     }
     .main-nav{
         font-size: 2rem;
+    }
+    /*HOME*/
+    .cover-home{
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about{
+        margin: 4rem auto 0;
+    }
+    /*フッター*/
+    .page-ffoter{
+        background-image: url(../images/cover-home-l.webp);
+        padding-top: 12rem;
+    }
+    .info th {
+        padding-left: 2.5rem;
     }
 
 }
